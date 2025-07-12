@@ -186,17 +186,6 @@ class EnergomeraIecComponent : public PollingComponent, public uart::UARTDevice 
 
   static std::string generateTag();
 };
-#include <iostream>
-
-int main() {
-  std::cout << "Привет, мир!" << std::endl;
-  std::cout << "Это пример вывода на экран." << std::endl;
-  std::cout << "Перевод строки с помощью \\n: " << "Текст на новой строке\n";
-  int a = 10;
-  int b = 20;
-  std::cout << a << " + " << b << " = " << a + b << std::endl;
-  return 0;
-}
 
 }  // namespace energomera_iec
 }  // namespace esphome
